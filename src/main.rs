@@ -4,7 +4,7 @@ use std::cell::Cell;
 use std::rc::Rc;
 // use gtk4 as gtk;
 
-const APP_ID: &str = "me.eternal0013.FirstGtk";
+const APP_ID: &str = "me.manish-ach.FirstGtk";
 
 fn main() -> glib::ExitCode {
     let app = Application::builder().application_id(APP_ID).build();
